@@ -1,6 +1,8 @@
 //___FILEHEADER___
 
-#import "PGUIView.h"
+___IMPORTHEADER_cocoaTouchSubclass___
+
+NS_ASSUME_NONNULL_BEGIN
 
 @protocol ___FILEBASENAMEASIDENTIFIER___Delegate <NSObject>
 
@@ -16,3 +18,4 @@
 
 @end
 
+NS_ASSUME_NONNULL_END

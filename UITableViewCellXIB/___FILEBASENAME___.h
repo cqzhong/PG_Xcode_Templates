@@ -1,6 +1,8 @@
 //___FILEHEADER___
 
-#import "PGTableViewCell.h"
+___IMPORTHEADER_cocoaTouchSubclass___
+
+NS_ASSUME_NONNULL_BEGIN
 
 @protocol ___FILEBASENAMEASIDENTIFIER___Delegate <NSObject>
 
@@ -15,3 +17,4 @@
 
 @end
 
+NS_ASSUME_NONNULL_END

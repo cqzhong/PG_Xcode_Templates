@@ -1,6 +1,8 @@
 //___FILEHEADER___
 
-#import "PGUIView.h"
+___IMPORTHEADER_cocoaTouchSubclass___
+
+NS_ASSUME_NONNULL_BEGIN
 
 @protocol ___FILEBASENAMEASIDENTIFIER___Delegate <NSObject>
 
@@ -13,3 +15,5 @@
 - (instancetype)initWithFrame:(CGRect)frame withDelegate:(id<___FILEBASENAMEASIDENTIFIER___Delegate>)delegate;
 
 @end
+
+NS_ASSUME_NONNULL_END

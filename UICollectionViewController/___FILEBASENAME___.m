@@ -26,10 +26,10 @@
 - (void)loadData {
     
 }
-- (void)requestFinishedSuccess:(__kindof PGBaseRequest *)request {
+- (void)requestFinishedSuccess:(__kindof <#type#> *)request {
     
 }
-- (void)requestFinishedError:(__kindof PGBaseRequest *)request{
+- (void)requestFinishedError:(__kindof <#type#> *)request{
     
 }
 
